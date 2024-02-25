@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-outfit-300 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+}
+
+.font-outfit-400 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+}
+
+.font-outfit-600 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+}
+
+#card-img {
+  transition: 0.3s ease;
+}
+
+#card-middle {
+  opacity: 0;
+  transition: 0.2s ease;
+}
+
+#card-img:hover {
+  background-color: #00fff7;
+}
+
+#card-img:hover img {
+  opacity: 0.6;
+}
+
+#card-img:hover #card-middle {
+  opacity: 1;
+}
